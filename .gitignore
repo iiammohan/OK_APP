@@ -1,0 +1,61 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+.melos_workspace/
+
+# Android
+android/.gradle/
+android/app/.cxx/
+android/app/build/
+android/local.properties
+android/gradlew
+android/gradlew.bat
+android/gradle/
+android/gradle-wrapper.jar
+
+# iOS
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Pods/
+ios/build/
+
+# macOS
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/build/
+
+# Web
+web/.dart_tool/
+web/build/
+
+# Windows
+windows/Flutter/ephemeral/
+windows/build/
+
+# Linux
+linux/Flutter/ephemeral/
+linux/build/
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+
+# VS Code
+.vscode/
+
+# Others
+*.iml
+*.log
+*.tmp
+*.swp
+*.lock
+*.DS_Store
+.idea/
