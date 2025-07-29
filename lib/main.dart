@@ -30,9 +30,19 @@ class OkScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('OK App')),
       body: Center(
-        child: ElevatedButton(
-          onPressed: _exitApp,
-          child: const Text('OK'),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const Text(
+              'Welcome to OK App',
+              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 24),
+            ElevatedButton(
+              onPressed: _exitApp,
+              child: const Text('OK'),
+            ),
+          ],
         ),
       ),
     );
